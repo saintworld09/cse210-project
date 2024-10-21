@@ -1,8 +1,9 @@
 public class Comment
 {
-    public string CommenterName { get; set; }
-    public string Text { get; set; }
+    public string CommenterName { get; }
+    public string Text { get; }
 
+    // Constructor to initialize a comment
     public Comment(string commenterName, string text)
     {
         CommenterName = commenterName;

@@ -31,4 +31,3 @@ class Program
         Console.WriteLine($"Total Price: ${order2.CalculateTotalPrice():0.00}");
     }
 }
- ss
