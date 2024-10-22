@@ -20,6 +20,6 @@ public class Product
 
     public string GetProductDetails()
     {
-        return $"{name} (ID: {productId}) - Cost: ${CalculateTotalCost():0.00}";
+        return $"{name} (ID: {productId}) - Quantity: {quantity}, Cost: ${CalculateTotalCost():0.00}";
     }
 }
